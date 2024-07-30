@@ -17,4 +17,4 @@ subtract2 = flip (-) 2
 -- subtract2 = 2
 
 -- Q5.2
-binaryPartialApplication f = (\x -> f x)
+binaryPartialApplication f a = (\b -> f a b)
